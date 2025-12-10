@@ -1,0 +1,372 @@
+[
+  {
+    "image": "https://i.ibb.co.com/WW3Jtzv9/snappix.png",
+    "title": "SnapPix Photo Editor",
+    "companyName": "PixelForge Ltd.",
+    "id": 1,
+    "description": "SnapPix offers AI-powered photo enhancement with professional-grade filters. It includes portrait retouching, color grading, and background removal tools. Designed for both casual users and creative professionals.",
+    "size": 54,
+    "reviews": 128430,
+    "ratingAvg": 4.6,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 3500 },
+      { "name": "2 star", "count": 5200 },
+      { "name": "3 star", "count": 11000 },
+      { "name": "4 star", "count": 34000 },
+      { "name": "5 star", "count": 74800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Ldd2Rs45/taskflow.png",
+    "title": "TaskFlow Manager",
+    "companyName": "WorkHub Technologies",
+    "id": 2,
+    "description": "TaskFlow helps you organize daily tasks, deadlines, and long-term projects. It supports team collaboration with shared boards and progress tracking. The clean UI makes productivity easier and stress-free.",
+    "size": 32,
+    "reviews": 83420,
+    "ratingAvg": 4.3,
+    "downloads": "6M",
+    "ratings": [
+      { "name": "1 star", "count": 2400 },
+      { "name": "2 star", "count": 4200 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 28000 },
+      { "name": "5 star", "count": 33800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Ldz81wND/Fit-Protracker.png",
+    "title": "FitPro Tracker",
+    "companyName": "HealthCore Ltd.",
+    "id": 3,
+    "description": "FitPro tracks workouts, heart rate, sleep quality, and calorie burn. It provides personalized training routines based on your goals. Stay motivated with weekly progress reports and challenges.",
+    "size": 48,
+    "reviews": 245000,
+    "ratingAvg": 4.8,
+    "downloads": "9M",
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 58000 },
+      { "name": "5 star", "count": 162000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/GQKs3hFc/Calcumaster.jpg",
+    "title": "CalcuMaster",
+    "companyName": "LogicSoft Apps",
+    "id": 4,
+    "description": "CalcuMaster brings a fast, modern calculator packed with scientific tools. It features advanced functions like trigonometry, graphs, and equation solving. Themes and customization make calculations more enjoyable.",
+    "size": 12,
+    "reviews": 34000,
+    "ratingAvg": 4.2,
+    "downloads": "15M",
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1600 },
+      { "name": "3 star", "count": 6000 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 13600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/vxwGGzsY/Travelmate.jpg",
+    "title": "TravelMate",
+    "companyName": "GoWorld Technologies",
+    "id": 5,
+    "description": "TravelMate helps you discover destinations with AI-curated travel plans. It includes hotel bookings, flight comparisons, and local guide suggestions. Perfect for both solo travelers and families.",
+    "size": 60,
+    "reviews": 155200,
+    "ratingAvg": 4.7,
+    "downloads": "7M",
+    "ratings": [
+      { "name": "1 star", "count": 3200 },
+      { "name": "2 star", "count": 4500 },
+      { "name": "3 star", "count": 9000 },
+      { "name": "4 star", "count": 40000 },
+      { "name": "5 star", "count": 98500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/rRf2XvW6/Edulearn.png",
+    "title": "EduLearn",
+    "companyName": "BrightMind Academy",
+    "id": 6,
+    "description": "EduLearn offers thousands of online courses across various subjects. Students can join live classes, practice quizzes, and earn certificates. The app adapts learning paths based on your performance.",
+    "size": 80,
+    "reviews": 430000,
+    "ratingAvg": 4.5,
+    "downloads": "15M",
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 18000 },
+      { "name": "3 star", "count": 42000 },
+      { "name": "4 star", "count": 140000 },
+      { "name": "5 star", "count": 218000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/6R7J3S0y/Musicbeatplayer.png",
+    "title": "MusicBeat Player",
+    "companyName": "AudioWave Inc.",
+    "id": 7,
+    "description": "MusicBeat delivers high-quality sound with customizable equalizers. Create playlists, discover new music, and sync across devices. The lightweight design ensures smooth playback on any phone.",
+    "size": 36,
+    "reviews": 99500,
+    "ratingAvg": 4.4,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 7000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 28000 },
+      { "name": "5 star", "count": 45500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/pr3SpZ4v/Notexpad.jpg",
+    "title": "NoteX Pad",
+    "companyName": "WriteLab Softwares",
+    "id": 8,
+    "description": "NoteX Pad offers fast note-taking with cloud sync and offline support. Voice-to-text helps capture ideas instantly. Organize notes using folders, tags, and color labels.",
+    "size": 18,
+    "reviews": 78000,
+    "ratingAvg": 4.1,
+    "downloads": "3M",
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 18000 },
+      { "name": "4 star", "count": 24000 },
+      { "name": "5 star", "count": 27000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/xKK0Lgpr/Daily-News.jpg",
+    "title": "DailyNews+",
+    "companyName": "InfoMedia Pvt. Ltd.",
+    "id": 9,
+    "description": "DailyNews+ brings breaking news from verified global sources. It offers customizable categories to match your interests. Watch live TV, read articles, and receive instant alerts.",
+    "size": 42,
+    "reviews": 210000,
+    "ratingAvg": 4.0,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 18000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 38000 },
+      { "name": "4 star", "count": 62000 },
+      { "name": "5 star", "count": 77000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Fb4sSxPq/Rideo-Taxi.png",
+    "title": "Rideo Taxi",
+    "companyName": "UrbanMove Ltd.",
+    "id": 10,
+    "description": "Rideo provides safe and affordable ride-sharing anytime you need. Track drivers in real-time and pay using secure digital methods. Designed for quick bookings and smooth city travel.",
+    "size": 70,
+    "reviews": 320000,
+    "ratingAvg": 4.2,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 42000 },
+      { "name": "2 star", "count": 35000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 80000 },
+      { "name": "5 star", "count": 103000 }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co.com/678XdVT8/Crypto-Vault.jpg",
+    "title": "CryptoVault",
+    "companyName": "FinPro Systems",
+    "id": 11,
+    "description": "CryptoVault helps you track cryptocurrency prices in real-time. Build your portfolio with alerts for market changes. Designed with advanced charts for expert traders.",
+    "size": 44,
+    "reviews": 120000,
+    "ratingAvg": 4.6,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 9000 },
+      { "name": "4 star", "count": 26000 },
+      { "name": "5 star", "count": 79000 }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co.com/vxmdH52G/Mind-Relax.png",
+    "title": "MindRelax",
+    "companyName": "CalmZen Studios",
+    "id": 12,
+    "description": "MindRelax offers guided meditation to reduce stress. Choose calming sounds, sleep stories, and breathing exercises. Track your mental well-being with daily mood logs.",
+    "size": 50,
+    "reviews": 98000,
+    "ratingAvg": 4.8,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 1800 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 18000 },
+      { "name": "5 star", "count": 71200 }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co.com/1GSsqLRx/Foodie-Hub.jpg",
+    "title": "FoodieHub",
+    "companyName": "FreshBite LLC",
+    "id": 13,
+    "description": "FoodieHub connects you with top-rated restaurants near you. Enjoy fast delivery with real-time order tracking. Explore exclusive discounts and personalized food suggestions.",
+    "size": 62,
+    "reviews": 340000,
+    "ratingAvg": 4.3,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 90000 },
+      { "name": "5 star", "count": 100000 }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co.com/qFd37wRF/Shop-Zone.jpg",
+    "title": "ShopZone",
+    "companyName": "MegaMart Global",
+    "id": 14,
+    "description": "ShopZone brings millions of products from trusted sellers. You can browse electronics, fashion, groceries, and more. Fast delivery and secure payments enhance your shopping experience.",
+    "size": 75,
+    "reviews": 890000,
+    "ratingAvg": 4.4,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 260000 },
+      { "name": "5 star", "count": 330000 }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co.com/yBxngXX9/Game-Burst.png",
+    "title": "GameBurst",
+    "companyName": "PlayVerse Interactive",
+    "id": 15,
+    "description": "GameBurst offers cloud gaming with hundreds of high-quality titles. Stream games instantly without downloads. Weekly events and leaderboards keep competition exciting.",
+    "size": 95,
+    "reviews": 210000,
+    "ratingAvg": 4.5,
+    "downloads": "5M",
+    "ratings": [
+      { "name": "1 star", "count": 6000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 30000 },
+      { "name": "4 star", "count": 70000 },
+      { "name": "5 star", "count": 94000 }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co.com/hxZGfLNC/Language-Go.png",
+    "title": "LanguageGo",
+    "companyName": "Learnify Tools",
+    "id": 16,
+    "description": "LanguageGo teaches 40+ languages with fun interactive lessons. Improve speaking using built-in voice recognition. Daily practice streaks help build long-term learning habits.",
+    "size": 58,
+    "reviews": 140000,
+    "ratingAvg": 4.7,
+    "downloads": "12M",
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 34000 },
+      { "name": "5 star", "count": 86000 }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co.com/mCRJbm0X/Wallet-Pro.png",
+    "title": "WalletPro",
+    "companyName": "SecurePay Holdings",
+    "id": 17,
+    "description": "WalletPro makes digital payments safe and effortless. Send money, pay bills, and manage expenses. Strong encryption ensures your financial data is always protected.",
+    "size": 40,
+    "reviews": 290000,
+    "ratingAvg": 4.1,
+    "downloads": "25M",
+    "ratings": [
+      { "name": "1 star", "count": 35000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 55000 },
+      { "name": "4 star", "count": 80000 },
+      { "name": "5 star", "count": 90000 }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co.com/Nd6YjPSP/Weather-Live.jpg",
+    "title": "WeatherLive",
+    "companyName": "SkyCast Ltd.",
+    "id": 18,
+    "description": "WeatherLive offers real-time forecasts with hourly updates. Access radar maps and severe weather alerts. Designed to help you plan your day with accuracy.",
+    "size": 30,
+    "reviews": 160000,
+    "ratingAvg": 4.2,
+    "downloads": "1M",
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 12000 },
+      { "name": "3 star", "count": 26000 },
+      { "name": "4 star", "count": 48000 },
+      { "name": "5 star", "count": 59000 }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co.com/wh8WvdsR/Secure-Guard.png",
+    "title": "SecureGuard",
+    "companyName": "Protectify Inc.",
+    "id": 19,
+    "description": "SecureGuard protects your phone with antivirus and malware defense. Real-time scanning keeps your device fast and safe. Includes privacy tools to block suspicious apps.",
+    "size": 85,
+    "reviews": 210000,
+    "ratingAvg": 4.6,
+    "downloads": "2M",
+    "ratings": [
+      { "name": "1 star", "count": 3500 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 60000 },
+      { "name": "5 star", "count": 120500 }
+    ]
+  },
+
+  {
+    "image": "https://i.ibb.co.com/mV8xBXqL/Chef-Master-Recipes.jpg",
+    "title": "ChefMaster Recipes",
+    "companyName": "CookBook Studios",
+    "id": 20,
+    "description": "ChefMaster includes thousands of recipes with step-by-step guides. Watch cooking videos and learn professional techniques. Save your favorite dishes and build custom meal plans.",
+    "size": 45,
+    "reviews": 75000,
+    "ratingAvg": 4.5,
+    "downloads": "25M",
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 24000 },
+      { "name": "5 star", "count": 33000 }
+    ]
+  }
+]
