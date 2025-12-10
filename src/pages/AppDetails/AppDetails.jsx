@@ -5,10 +5,40 @@ import review from "../../assets/review.png"
 import { useLoaderData, useParams } from "react-router";
 import { Bar, BarChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { addToStoredDB } from "../../utility/addToDB";
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
+ const MySwal = withReactContent(Swal)
+let timerInterval;
 
 const AppDetails = () =>{
+const [isInstalling, setIsInstalling] = useState(false);   
 const [installedApps, setInstalledApps] = useState([]);
 const handleMarkeAsInstall = (id) => {
+    setIsInstalling(true);
+//   sweeralert
+
+    MySwal.fire({
+  title: "Auto close alert!",
+  html: "I will close in <b></b> milliseconds.",
+  timer: 2000,
+  timerProgressBar: true,
+  didOpen: () => {
+    Swal.showLoading();
+    const timer = Swal.getPopup().querySelector("b");
+    timerInterval = setInterval(() => {
+      timer.textContent = `${Swal.getTimerLeft()}`;
+    }, 100);
+  },
+  willClose: () => {
+    clearInterval(timerInterval);
+  }
+}).then((result) => {
+  if (result.dismiss === Swal.DismissReason.timer) {
+    console.log("I was closed by the timer");
+    setIsInstalling(false);
+  }
+});
+// sweet alert end
     setInstalledApps(prev => [...prev, id]);
     addToStoredDB(id);
 };
@@ -54,8 +84,8 @@ const handleMarkeAsInstall = (id) => {
                     </div>
                 </div>
                 <div className="flex justify-center md:justify-start">
-                    <button onClick={()=> handleMarkeAsInstall(id)} className="btn bg-green-500 text-white text-lg mb-5 mt-5 shadow-lg" 
-                    disabled ={installedApps.includes(id)}
+                    <button onClick={() => handleMarkeAsInstall(id)} disabled ={isInstalling} className="btn bg-green-500 text-white text-lg mb-5 mt-5 shadow-lg" 
+                    
                     >
                     {installedApps.includes(id) ? "Installed" : `Install Now (${size} MB)`}
                     </button>
