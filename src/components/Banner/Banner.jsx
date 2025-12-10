@@ -11,9 +11,15 @@ const Banner = () => {
             At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.<br></br> Our goal is to turn your ideas into digital experiences that truly make an impact.
            </p>
            <div className="flex justify-center items-center my-15">
-            <button className="btn md:text-xl font-bold">
-                    <FontAwesomeIcon icon={faGooglePlay} /> Google Play</button>
-            <button  className="btn md:text-xl font-bold ml-5"><FontAwesomeIcon icon={faAppStoreIos} /> App Store</button>
+            <button  className="btn md:text-xl font-bold">
+                   <a  href="https://play.google.com/store/games?hl=en&pli=1" 
+    target="_blank" 
+    rel="noopener noreferrer"> <FontAwesomeIcon icon={faGooglePlay} /> Google Play </a></button>
+            <button
+              className="btn md:text-xl font-bold ml-5">
+                <a  href="https://www.apple.com/app-store/" 
+    target="_blank" 
+    rel="noopener noreferrer"><FontAwesomeIcon icon={faAppStoreIos} /> App Store</a></button>
            </div>
            <div>
             <img className="items-center align-middle mx-auto md:w-[700px]" src={hero}></img>
