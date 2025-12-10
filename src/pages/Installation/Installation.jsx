@@ -3,6 +3,8 @@ import { useLoaderData } from "react-router";
 import downloads from "../../assets/downloads.png"
 import rating from "../../assets/ratings.png"
 import { getStoredApp, removeFromStoredDB } from "../../utility/addToDB";
+import { toast } from "react-toastify";
+
 const Installation = () =>{
     const [appList, setAppList] = useState([])
     const [sort, setSort] = useState("");
@@ -17,6 +19,9 @@ const Installation = () =>{
         const filteredList = appList.filter(app => app.id !== id);
         setAppList(filteredList);
         removeFromStoredDB(id);
+        toast.error("App Uninstalled!", {
+        position: "top-right",
+    });
     };
 
     const handleSort = (type) => {
