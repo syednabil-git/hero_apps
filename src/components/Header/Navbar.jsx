@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router";
+import { NavLink } from "react-router";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import logo from "../../assets/logo.png"
@@ -15,18 +16,66 @@ const Navbar = () => {
       <ul
         tabIndex="-1"
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/Store">Store</Link></li>
-        <li><Link to="/Installation">Installation</Link></li>
+        <li>
+          <NavLink 
+          to="/"
+          className={({ isActive }) =>
+          isActive ? "bg-linear-to-r from-[#5F02F0] to-[#632EE3] text-white underline" 
+           : "" }
+           > Home
+           </NavLink>
+        </li>
+        <li>
+          <NavLink 
+          to="/apps"
+          className={({ isActive }) =>
+          isActive ? "bg-linear-to-r from-[#5F02F0] to-[#632EE3] text-white underline" 
+           : "" }
+           > Apps
+           </NavLink>
+           </li>
+        <li>
+          <NavLink 
+          to="/installation"
+          className={({ isActive }) =>
+          isActive ? "bg-linear-to-r from-[#5F02F0] to-[#632EE3] text-white underline" 
+           : "" }
+           > Installation
+           </NavLink>
+        </li>
       </ul>
     </div>
     <a className="btn btn-ghost md:text-xl"><span><img className="w-[30px] md:w-[50px]" src={logo}></img></span>HERO.IO</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 text-xl font-semibold">
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/Store">Store</Link></li>
-        <li><Link to="/Installation">Installation</Link></li>
+        <li>
+          <NavLink 
+          to="/"
+          className={({ isActive }) =>
+          isActive ? "bg-linear-to-r from-[#5F02F0] to-[#632EE3] text-white underline" 
+           : "" }
+           > Home
+           </NavLink>
+        </li>
+        <li>
+          <NavLink 
+          to="/apps"
+          className={({ isActive }) =>
+          isActive ? "bg-linear-to-r from-[#5F02F0] to-[#632EE3] text-white underline" 
+           : "" }
+           > Apps
+           </NavLink>
+           </li>
+        <li>
+          <NavLink 
+          to="/installation"
+          className={({ isActive }) =>
+          isActive ? "bg-linear-to-r from-[#5F02F0] to-[#632EE3] text-white underline" 
+           : "" }
+           > Installation
+           </NavLink>
+        </li>
     </ul>
   </div>
   <div className="navbar-end">
