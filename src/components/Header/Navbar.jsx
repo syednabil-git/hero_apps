@@ -30,7 +30,11 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white md:text-xl font-semibold rounded-2xl md:h-[60px]"><FontAwesomeIcon icon={faGithub} size="" /> Contribute</a>
+    <a 
+      href="https://github.com/syednabil-git/hero_apps" 
+    target="_blank" 
+    rel="noopener noreferrer"
+     className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white md:text-xl font-semibold rounded-2xl md:h-[60px]"><FontAwesomeIcon icon={faGithub} size="" /> Contribute</a>
   </div>
 </div>
        );
