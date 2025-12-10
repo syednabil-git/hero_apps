@@ -21,7 +21,7 @@ const Apps = ({data}) => {
             
            </div> 
            <div className="flex justify-center">
-            <Link to="/store">
+            <Link to="/apps">
             <button className="w-[200px] rounded-lg bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white font-bold text-lg p-2 my-20 ">Show All
 
             </button>
